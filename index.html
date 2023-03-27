@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <svg width="300" height="100%" viewBox="0 0 300 200">
+        <defs>
+            <linearGradient id="Gradient-1" x1="0%" y1="0%" x2="7%" y2="0%">
+                <stop offset="0%" stop-color="#7dc4e8" />
+                <stop offset="50%" stop-color="#7dc4e8" />
+                <stop offset="50%" stop-color="#b1dcf1" />
+            </linearGradient>
+            <linearGradient id="repeat" xlink:href="#Gradient-1" spreadMethod="repeat" />
+            <pattern id="pattern" x="0" y="0" patternUnits="userSpaceOnUse" width="10" height="15">
+                <rect x="0" y="0" fill="#ff401a" width="100" height="100"/>
+                <circle cx="5" cy="5" r="2.5" fill="#fff"/>
+            </pattern>
+        </defs>
+
+        <rect x="0" y="0" width="100%" height="100%" fill="url(#repeat)" />
+
+        <text x="55" y="82" fill="#000" opacity="0.3" font-size="40" font-family="Lobster" font-weight="bold">the Breaking</text>
+        <text x="80" y="165" fill="#000" opacity="0.3"  font-size="90" font-family="Lobster" font-weight="bold">Bad</text>
+        <text x="50" y="75" fill="#f4b400" font-size="40" font-family="Lobster" font-weight="bold" stroke="#fff" width-stroke="3">the Breaking</text>
+        <text x="70" y="160" fill="url(#pattern)" font-size="90" font-family="Lobster" font-weight="bold" stroke="#fff" width-stroke="3">Bad</text>
+    </svg>
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+html{
+    font-size: 1px;
+}
+
+body{    
+    margin: 0;
+}
+
+svg{
+    margin: 50rem;
+    padding: 3rem;
+    background: url(#gradient);
+    border: 1px dashed #ccc;
+}
