@@ -54,7 +54,15 @@ svg {
         transform: rotateX(180deg);
     }
 
-    100% {
+    70%{
         transform: rotateX(360deg);
+    }
+
+    80%{
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
     }
 }
