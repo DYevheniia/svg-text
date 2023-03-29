@@ -1,14 +1,60 @@
-html{
+html {
     font-size: 1px;
 }
 
-body{    
+body {
     margin: 0;
 }
 
-svg{
+svg {
     margin: 50rem;
     padding: 3rem;
     background: url(#gradient);
     border: 1px dashed #ccc;
+}
+
+#theShadow {
+    animation: theShadow 10s linear 1s normal 1;
+}
+
+#badShadow {
+    animation: badShadow 10s linear 1s normal 1;
+}
+
+#the {
+    animation: the 10s linear 1s normal 1;
+}
+
+#bad {
+    animation: the 10s linear 1s normal 1;
+}
+
+@keyframes theShadow {
+    0% {
+        transform: translate(-100%, 0);
+    }
+
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+@keyframes badShadow {
+    0% {
+        transform: translate(100%, 0);
+    }
+
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+@keyframes the {
+    0% {
+        transform: rotateX(180deg);
+    }
+
+    100% {
+        transform: rotateX(360deg);
+    }
 }
